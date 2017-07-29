@@ -1,0 +1,11 @@
+<apex:page showHeader="false">
+    <h1>
+        Display an Image
+    </h1>
+    
+    <apex:pageBlock title="The Image Block">
+        <apex:image url="https://developer.salesforce.com/files/salesforce-developer-network-logo.png"/>
+        
+    </apex:pageBlock>
+
+</apex:page>
