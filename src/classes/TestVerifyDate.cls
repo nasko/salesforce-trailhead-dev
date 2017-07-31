@@ -1,5 +1,5 @@
 @isTest
-public class TestVerifyDate {
+private class TestVerifyDate {
     @isTest static void testWithin30DaysPeriod() {
 		Date date1 = System.today();
 		Date date2 = date1.addDays(10);
