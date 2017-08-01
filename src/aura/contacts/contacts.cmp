@@ -1,4 +1,4 @@
-<aura:component>
+<aura:component >
     <aura:attribute name="contact" type="Contact" />
 
     <lightning:card variant="Narrow" title="{!v.contact.Name}"

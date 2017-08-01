@@ -9,8 +9,8 @@
 
     <!-- Page header with a counter that displays total number of contacts -->
     <div class="slds-page-header slds-page-header--object-home">
-        <lightning:layout>
-            <lightning:layoutItem>
+        <lightning:layout >
+            <lightning:layoutItem >
                 <lightning:icon iconName="standard:contact" />
             </lightning:layoutItem>
             <lightning:layoutItem class="slds-m-left--small">
@@ -19,15 +19,15 @@
             </lightning:layoutItem>
         </lightning:layout>
 
-        <lightning:layout>
-            <lightning:layoutItem>
+        <lightning:layout >
+            <lightning:layoutItem >
                 <p class="slds-text-body--small">{!v.totalContacts} Contacts • View Contacts Based on Lead Sources</p>
             </lightning:layoutItem>
         </lightning:layout>
     </div>
 
     <!-- Body with dropdown menu and list of contacts -->
-    <lightning:layout>
+    <lightning:layout >
         <lightning:layoutItem padding="horizontal-medium" >
             <!-- Create a dropdown menu with options -->
             <lightning:select aura:id="select" label="Lead Source" name="source"
